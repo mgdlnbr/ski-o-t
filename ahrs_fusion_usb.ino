@@ -179,5 +179,12 @@ void loop(void)
  delay(250);
  lcd.clear();
  }
+  
+  else{
+  lcd.print(pitch);
+   delay(250);
+  lcd.clear();
+  }
+ 
  
 }
